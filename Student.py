@@ -21,3 +21,9 @@ s1.introduce()
 s2.introduce()
 
 Student.total_students()
+
+class Prefect(Student):
+    pass
+
+s3 = Prefect("Selu" , 19)
+s3.introduce()
