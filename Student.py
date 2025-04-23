@@ -25,5 +25,9 @@ Student.total_students()
 class Prefect(Student):
     pass
 
+class Prefect(Student):
+    def introduce(self):
+        print("I am a the school prefect")
+
 s3 = Prefect("Selu" , 19)
 s3.introduce()
