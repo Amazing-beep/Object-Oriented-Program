@@ -30,5 +30,12 @@ class Prefect(Student):
         super().introduce()
         print("I am a the school prefect")
 
+class leader(Prefect):
+    def introduce(self):
+        super().introduce()
+        print("I am a leader")
+
 s3 = Prefect("Selu" , 19)
 s3.introduce()
+s4 = leader("Tabo" , 21)
+s4.introduce()
