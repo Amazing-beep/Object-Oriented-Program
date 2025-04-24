@@ -27,6 +27,7 @@ class Prefect(Student):
 
 class Prefect(Student):
     def introduce(self):
+        super().introduce()
         print("I am a the school prefect")
 
 s3 = Prefect("Selu" , 19)
