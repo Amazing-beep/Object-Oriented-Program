@@ -39,3 +39,7 @@ s3 = Prefect("Selu" , 19)
 s3.introduce()
 s4 = leader("Tabo" , 21)
 s4.introduce()
+
+meeting = [Student("Amazing", 20), Prefect("Mukelwa", 15), leader("Selu", 19)]
+for m in meeting:
+    m.introduce()
